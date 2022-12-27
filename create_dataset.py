@@ -33,6 +33,7 @@ def start_capture(name):
                 pass
             if key == ord("q") or key == 27 or num_of_images > 310:
                 break
+                #samir
         cv2.destroyAllWindows()
         return num_of_images
 
