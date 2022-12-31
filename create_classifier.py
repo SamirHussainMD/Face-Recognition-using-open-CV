@@ -32,6 +32,7 @@ def train_classifer(name):
             ids.append(id)
 
     ids = np.array(ids)
+    #Train
 
     #Train and save classifier
     clf = cv2.face.LBPHFaceRecognizer_create()
